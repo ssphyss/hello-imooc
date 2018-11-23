@@ -1,0 +1,28 @@
+.top {
+    background-color: yellow;
+    height: 72px;
+    .logo {
+        height: 72px;
+    }
+    &__left {
+        display: inline-block;
+        // width: 350px;
+        height: inherit;
+        border: 1px solid;
+    }
+    &__right {
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        // width: 350px;
+        height: inherit;             
+        border: 1px solid;    
+    }
+    &__search {
+        vertical-align: top;
+        display: inline-block;
+        border: 1px solid;
+        // width: 300px; 
+        height: inherit;
+    }
+}
