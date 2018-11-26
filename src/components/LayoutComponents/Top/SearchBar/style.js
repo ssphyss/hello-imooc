@@ -2,7 +2,7 @@
  * SearchBar
  */
 import styled from 'styled-components';
-const primary = '#ea6f5a';
+// const primary = '#ea6f5a';
 
 export const WrapperSearchBar = styled.div`
     position: relative;

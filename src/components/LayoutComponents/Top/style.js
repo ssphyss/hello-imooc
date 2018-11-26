@@ -3,7 +3,7 @@
  */
 import styled from 'styled-components';
 // import logoPic from './../../../assets/logo.png';
-const primary = '#ea6f5a';
+// const primary = '#ea6f5a';
 
 export const WrapperTop = styled.div`
     /* position: relative;

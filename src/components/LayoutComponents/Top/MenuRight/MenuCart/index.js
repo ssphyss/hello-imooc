@@ -11,15 +11,17 @@ class MenuCart extends React.Component{
         const { count } = this.state;
         const menu = (
             <Menu>
-                <Card
-                    title="Card title"
-                    extra={<a href="#">More</a>}
-                    style={{ width: 300 }}
-                >
-                    <p>Card content</p>
-                    <p>Card content</p>
-                    <p>Card content</p>
-                </Card>
+                <Menu.Item>
+                    <Card
+                        title="Card title"
+                        extra={<a href="/">More</a>}
+                        style={{ width: 300 }}
+                    >
+                        <p>Card content</p>
+                        <p>Card content</p>
+                        <p>Card content</p>
+                    </Card>
+                </Menu.Item>
             </Menu>
         )
         return(            

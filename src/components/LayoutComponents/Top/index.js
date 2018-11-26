@@ -3,7 +3,7 @@ import MenuHome from './MenuHome';
 import SearchBar from './SearchBar';
 import MenuRight from './MenuRight';
 import logo from './../../../assets/logo.png';
-import { WrapperTop } from './style';
+// import { WrapperTop } from './style';
 import './index.scss';
 
 class Top extends React.Component{

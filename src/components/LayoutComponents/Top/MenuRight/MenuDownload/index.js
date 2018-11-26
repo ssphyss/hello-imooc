@@ -32,15 +32,17 @@ class MenuDownload extends React.Component{
                     <i className="topbar__dropdownMenuIcon icmn-exit" /> 登出
                 </Link> */}
                 </Menu.Item>
-                <Card
-                    title="Card title"
-                    extra={<a href="#">More</a>}
-                    style={{ width: 300 }}
-                >
-                    <p>Card content</p>
-                    <p>Card content</p>
-                    <p>Card content</p>
-                </Card>
+                <Menu.Item>
+                    <Card
+                        title="Card title"
+                        extra={<a href="/">More</a>}
+                        style={{ width: 300 }}
+                    >
+                        <p>Card content</p>
+                        <p>Card content</p>
+                        <p>Card content</p>
+                    </Card>
+                </Menu.Item>
             </Menu>
         )
         return(
